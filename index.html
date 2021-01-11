@@ -26,9 +26,21 @@ Submitted to InterSpeech 2021.
     <p><b>System architecture:</b></p>
     <p><img src="resources/sc-glowTTS.png" width="560"></p>
 
-    <h3>Audio Samples</h3>
 
-   SC-GlowTTS + HiFi-GAN-FT
+    <h3>Cosine Similarities calculated with sentences not seen in training</h3> 
+    Model + HiFi-GAN-FT
+    <table border="1">
+      <tr><td>Model</td><td>Unseen Speakers (test)</td></tr>
+      <tr><td>Tacotron 2</td><td>0.6798</td></tr>
+      <tr><td>SC-GlowTTS-Trans</td><td>0.7999</td></tr>
+      <tr><td>SC-GlowTTS-Res</td><td><b>0.8027</b></td></tr>
+      <tr><td>SC-GlowTTS-Gated</td><td>0.7651</td></tr>
+    </table>
+    <p>
+
+    <h3>Audio Samples for VCTK sentences</h3>
+
+    Model + HiFi-GAN-FT
 
 
 <p><b>Trained using 98 speakers:</b></p>
