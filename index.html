@@ -1,50 +1,81 @@
-<html>
-
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>SC-GlowTTS: An Efficient Zero-Shot Multi-Speaker Text-To-Speech Model</title>
-  <link rel="stylesheet" type="text/css" href="./resources/stylesheet.css">
-  <link rel="shortcut icon" href="../../resources/logo.png">
-  <style>
-    code {
-      display: block;
-      white-space: pre-wrap
-    }
-  </style>
-</head>
-
-<body>
-
-<h2>SC-GlowTTS: An Efficient Zero-Shot Multi-Speaker Text-To-Speech Model</h2>
-Submitted to InterSpeech 2021.
-
-<ul>
-  <li><a href="">Paper on arXiv</a></li>
-  <li><a href="https://github.com/mozilla/TTS.git">Open-source code in the Mozilla TTS repository</a></li>
-</ul>
-
-    <p><b>System architecture:</b></p>
-    <p><img src="resources/SC-GlowTTS.png" width="560"></p>
 
 
-    <h3>Cosine Similarities calculated with sentences not seen in training</h3> 
-    Model + HiFi-GAN-FT
-    <table border="1">
-      <tr><td>Model</td><td>Unseen Speakers (test)</td></tr>
-      <tr><td>Tacotron 2</td><td>0.6798</td></tr>
-      <tr><td>SC-GlowTTS-Trans</td><td>0.7999</td></tr>
-      <tr><td>SC-GlowTTS-Res</td><td><b>0.8027</b></td></tr>
-      <tr><td>SC-GlowTTS-Gated</td><td>0.7651</td></tr>
-      <tr><td>SC-GlowTTS-Res-11-speakers</td><td>0.7690</td></tr>
-    </table>
-    <p>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>SC-GlowTTS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/x-icon" href="favicons/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section id="page-header" class="page-header">
+        <div id="bg-header"></div>
+        <canvas id="demo-canvas"></canvas>
+        <div class="main-title">
+          <h1 class="project-name"><span><a href="index.html">SC-GlowTTS</a></span></h1>
+          <!-- <h2 class="project-tagline">Sentence Boundary Detection using Deep Learning</h2> -->
+          <h2 class="project-tagline">An Efficient Zero-Shot Multi-Speaker Text-To-Speech Model</h2>
+          <!-- <a href="https://github.com/mtreviso/deepbond" class="btn">Ver no GitHub</a> -->
+          <div class="dropdown">
+             <!-- <a href="projeto.html" class="btn">O Projeto</a>
+            <div class="dropdown-content">
+              <a href="projeto.html#introducao">Introdução</a>
+              <a href="projeto.html#hipoteses">Hipóteses</a>
+              <a href="projeto.html#objetivos">Objetivos</a>
+              <a href="projeto.html#metodologia">Metodologia</a>
+            </div>
+          </div>
+          <div class="dropdown">
+            <a href="ferramenta.html" class="btn">A Ferramenta</a>
+            <div class="dropdown-content">
+              <a href="ferramenta.html#instalacao">Como instalar</a>
+              <a href="ferramenta.html#uso">Como usar</a>
+              <a href="ferramenta.html#treinamento">Como treinar um modelo</a>
+            </div>
+          </div>
 
-    <h3>Audio Samples for VCTK sentences</h3>
+          <a href="recursos.html" class="btn">Recursos</a>
+          <a href="pesquisadores.html" class="btn">Pesquisadores</a>
+          <a href="publicacoes.html" class="btn">Publicações</a>
+          <a href="contato.html" class="btn">Contato</a>-->
 
-    Model + HiFi-GAN-FT
+        </div>
+    </section>
+
+    <section class="main-content">
+
+      <center>
+        <a href="https://github.com/Edresson/SC-GlowTTS/" class="btn2">• GitHub •</a>
+       <a href="" class="btn2">•Paper on arXiv•</a></li>
+       <!-- <a href="tutorial.html" class="btn2">• Tutorial •</a>  -->
+       <!-- <a href="http://fw.nilc.icmc.usp.br:23680/" target="_blank" class="btn2">• Interface Online •</a> -->
+      </center>
+
+      
 
 
-<p><b>Trained using 98 speakers:</b></p>
+      
+      <h3>Abstract:</h3>
+
+      <p>
+        In this paper, we propose SC-GlowTTS: an efficient zero-shot multi-speaker text-to-speech model that improves similarity for speakers unseen in training. We propose a speaker conditional architecture that explores a flow-based decoder which is able to work in a zero-shot scenario. As text encoders, we explored a dilated residual convolutional-based encoder, gated convolutional-based encoder and transformer-based encoder. Additionally, we have shown that adjusting a GAN-based vocoder for the spectrograms predicted by the TTS model on the training dataset can significantly improve the similarity and speech quality for new speakers. We showed that our model can converge in training, using only 11 speakers, reaching state-of-the-art results for similarity with new speakers and speech quality.
+      </p>
+
+      <h3>System architecture::</h3>
+      <p><img src="resources/SC-GlowTTS.png" width="560"></p>
+    
+
+      <h3>Audio Samples for VCTK sentences</h3>
+
+      Model + HiFi-GAN-FT
+
+      <p><b>Trained using 98 speakers:</b></p>
+
 <table border="1">
 <tr><td>Model</td><td colspan="12">Unseen Speakers (test)</td></tr>
 <tr>
@@ -381,20 +412,28 @@ SC-GlowTTS-Res + HiFi-GAN
 
           </table>
 
+
+
+
+
+      <footer class="site-footer">
+
+          <span class="site-footer-owner">Thanks <a href="https://github.com/mtreviso">mtreviso</a>.</span>
+
+          <a href="http://icmc.usp.br/" title="Institute of Mathematics and Computer Science (ICMC)" target="_blank"> <img src="img/icmc.png" border="0" height="42"> </a>
+          
+          <a href="http://nilc.icmc.usp.br/" title="The Interinstitutional Center for Computational Linguistics(NILC)" target="_blank"> <img src="img/nilc.png" border="0" height="42"> </a>
+
+          <div class="cleaner"></div>
+
+      </footer>
+
+    </section>
+
+
+
+
+    <script src="js/animheader.js"></script>
   
-    <h2>FAQ</h2>
-
-    <h2>Dataset information</h2>
-
-    <p>
-      Information on the dataset used and how the training, validation and test division was carried out is in the article.
-    </p>
-    <p>
-      CSVs for HiFi-GAN training on LibriTTS and VCTK are available <a href="https://github.com/Edresson/SC-GlowTTS/tree/main/dataset/HiFi-GAN_CSVs">here</a>.
-    </p>
-
-
-  </div>
-</body>
-
+  </body>
 </html>
