@@ -7,4 +7,6 @@
 
 [SC-GlowTTS-Trans](https://colab.research.google.com/drive/1yyQDc-xWCqa2g-d1joW_goqbYZKaImsJ?usp=sharing)
 
+[SC-GlowTTS-Res](https://colab.research.google.com/drive/12xhFAoIMbrAZLDl52qoCewclcWrseZvn?usp=sharing)
+
 [SC-GlowTTS-Gated](https://colab.research.google.com/drive/12AkecRGFFgqchoSYiySjqgb-MzFp_eUo?usp=sharing)
