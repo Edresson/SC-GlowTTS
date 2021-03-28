@@ -7,6 +7,9 @@ In our recent paper we propose SC-GlowTTS: an efficient zero-shot multi-speaker 
 ## Audios samples
 Visit our [website](https://edresson.github.io/SC-GlowTTS/) for audio samples.
 
+## Implementation
+All of our experiments were implemented at [Coqui TTS](https://github.com/coqui-ai/tts).
+
 ## Checkpoints
 
 | Model                        | URL                                                                                            |
