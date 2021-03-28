@@ -35,3 +35,8 @@ All of our experiments were implemented at [Coqui TTS](https://github.com/coqui-
 
 ## Preprocessed datasets
 [VCTK Removed Silences](https://drive.google.com/drive/folders/1VEws5CYzYI3EEWwWxsDov1atIKy1luia?usp=sharing)
+
+
+# MOS details
+[MOS Sentences](https://raw.githubusercontent.com/Edresson/SC-GlowTTS/main/MOS-Sentences.txt)
+[MOS samples](https://drive.google.com/file/d/1ClUT-O_LR0yXfJns7F7JOrwU7uLgDeyo/view?usp=sharing)
