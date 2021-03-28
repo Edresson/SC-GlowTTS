@@ -28,5 +28,7 @@ Visit our [website](https://edresson.github.io/SC-GlowTTS/) for audio samples.
 
 [SC-GlowTTS-Gated](https://colab.research.google.com/drive/12AkecRGFFgqchoSYiySjqgb-MzFp_eUo?usp=sharing)
 
+[SC-GlowTTS-Trans trained with 11 speakers](https://colab.research.google.com/drive/12EeCCoHwTa6LePlZKy2u9NHdQJl7lrpw?usp=sharing)
+
 ## Preprocessed datasets
 [VCTK Removed Silences](https://drive.google.com/drive/folders/1VEws5CYzYI3EEWwWxsDov1atIKy1luia?usp=sharing)
