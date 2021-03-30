@@ -14,7 +14,7 @@ All of our experiments were implemented at [Coqui TTS](https://github.com/coqui-
 
 | Model                        | URL                                                                                            |
 |------------------------------|------------------------------------------------------------------------------------------------|
-| Speaker Encoder              | [link](https://drive.google.com/drive/folders/1LiPeThFS1mYwXb4dKCcutNgrRQxt9-H6?usp=sharing)   |
+| Speaker Encoder by [@mueller91](https://github.com/mueller91)             | [link](https://drive.google.com/drive/folders/1LiPeThFS1mYwXb4dKCcutNgrRQxt9-H6?usp=sharing)   |
 | Tacotron 2                   | [link](https://drive.google.com/drive/folders/1fwDjHJAG12Zc2SZIw309chdXlEFKMTBJ?usp=sharing)   |
 | SC-GlowTTS-Trans             | [link]( https://drive.google.com/drive/folders/1YT-hxIrDQfMwVPM0bRNQqYbks7yMjC8V?usp=sharing ) |
 | SC-GlowTTS-Res               | [link](  https://drive.google.com/drive/folders/1_vj4_cWGDya-AZXEe2tabSWBDXdzYDN8?usp=sharing) |
